@@ -1,0 +1,25 @@
+{
+  "name": "md2confluence",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "bin": {
+    "md2confluence": "./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:a5doc/md2confluence.git"
+  },
+  "scripts": {
+    "md2confluence": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "confluence-api": "git+https://github.com/a5doc/confluence-api.git",
+    "dotenv": "^7.0.0",
+    "front-matter": "^3.0.1",
+    "markdown2confluence-cws": "^2.0.4",
+    "marked": "^0.6.2",
+    "minimist": "^1.2.0"
+  }
+}
